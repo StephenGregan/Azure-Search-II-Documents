@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="index.json" />
     <None Include="indexer.json" />
     <None Include="packages.config" />
   </ItemGroup>
