@@ -10,13 +10,11 @@
     "configuration": {
       "dataToExtract": "contentAndMetadata"
     }
-
   },
   "fieldMappings": [
     {
       "sourceFieldName": "metadata_storage_name",
       "targetFieldName": "fileName"
-
     },
     {
       "sourceFieldName": "metadata_custom_dempBoost",
@@ -31,26 +29,19 @@
     {
       "sourceFieldName": "/document/finalText",
       "targetFieldName": "text"
-
     },
     {
       "sourceFieldName": "/document/hocrDocument/metadata",
       "targetFieldName": "metadata"
-
     },
     {
       "sourceFieldName": "/document/entities/*/value",
       "targetFieldName": "entities"
-
     },
     {
-      "sourceFieldName": "",
-      "targetFieldName": ""
-
+      "sourceFieldName": "/document/normalized_images/*/layoutText/words/*/text/cryptonym/value",
+      "targetFieldName": "cryptonyms"
     }
   ]
 }
-
-
-  ]
 
