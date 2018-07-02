@@ -48,7 +48,7 @@ namespace AzureSearch_II_Documents
             }
             else
             {
-                Console.WriteLine("All operations were successful.");
+                Console.WriteLine("All operations were successfull.");
             }
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
